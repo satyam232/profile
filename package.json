@@ -8,6 +8,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "prebuild": "npm install -g npm@latest",
+
   "author": "satyam",
   "license": "ISC",
   "dependencies": {
